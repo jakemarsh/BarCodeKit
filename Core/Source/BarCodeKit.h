@@ -9,6 +9,7 @@
 #import "BCKEAN13Code.h"
 #import "BCKUPCECode.h"
 #import "BCKCode39Code.h"
+#import "BCKCode39CodeModulo43.h"
 #import "BCKCode93Code.h"
 #import "BCKFacingIdentificationMarkCode.h"
 #import "BCKInterleaved2of5Code.h"
