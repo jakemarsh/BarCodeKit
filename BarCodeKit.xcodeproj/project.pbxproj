@@ -442,7 +442,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		30EED09C1E73987100C87EB8 /* BarcodeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BarcodeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EED09C1E73987100C87EB8 /* BarCodeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BarCodeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EED09E1E73987100C87EB8 /* BarcodeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarcodeKit.h; sourceTree = "<group>"; };
 		30EED09F1E73987100C87EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C2AF50E17D5EE3F00175AE0 /* BCKCode39FullASCII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCKCode39FullASCII.h; sourceTree = "<group>"; };
@@ -1255,7 +1255,7 @@
 				A702E4B017FE916F00506B2B /* BarCodeKit.app */,
 				A7E0B58C17FEBD4F0037B70C /* BarCodeKit.app */,
 				A77CEDA619E7F40800DBCEE7 /* Unit Tests (Mac).xctest */,
-				30EED09C1E73987100C87EB8 /* BarcodeKit.framework */,
+				30EED09C1E73987100C87EB8 /* BarCodeKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1480,9 +1480,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		30EED09B1E73987100C87EB8 /* BarcodeKit */ = {
+		30EED09B1E73987100C87EB8 /* BarCodeKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30EED0A31E73987100C87EB8 /* Build configuration list for PBXNativeTarget "BarcodeKit" */;
+			buildConfigurationList = 30EED0A31E73987100C87EB8 /* Build configuration list for PBXNativeTarget "BarCodeKit" */;
 			buildPhases = (
 				30EED0971E73987100C87EB8 /* Sources */,
 				30EED0981E73987100C87EB8 /* Frameworks */,
@@ -1493,9 +1493,9 @@
 			);
 			dependencies = (
 			);
-			name = BarcodeKit;
+			name = BarCodeKit;
 			productName = BarcodeKit;
-			productReference = 30EED09C1E73987100C87EB8 /* BarcodeKit.framework */;
+			productReference = 30EED09C1E73987100C87EB8 /* BarCodeKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A702E4AF17FE916E00506B2B /* Demo (iOS) */ = {
@@ -1649,7 +1649,7 @@
 				A7378D9217C2584E008921C4 /* Unit Tests (iOS) */,
 				A7378D8817C2519C008921C4 /* Documentation */,
 				A77CEDA519E7F40800DBCEE7 /* Unit Tests (Mac) */,
-				30EED09B1E73987100C87EB8 /* BarcodeKit */,
+				30EED09B1E73987100C87EB8 /* BarCodeKit */,
 			);
 		};
 /* End PBXProject section */
@@ -2079,10 +2079,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = BarcodeKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cocoanetics.BarcodeKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoanetics.BarCodeKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2113,10 +2113,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = BarcodeKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cocoanetics.BarcodeKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoanetics.BarCodeKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2463,7 +2463,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30EED0A31E73987100C87EB8 /* Build configuration list for PBXNativeTarget "BarcodeKit" */ = {
+		30EED0A31E73987100C87EB8 /* Build configuration list for PBXNativeTarget "BarCodeKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30EED0A11E73987100C87EB8 /* Debug */,
