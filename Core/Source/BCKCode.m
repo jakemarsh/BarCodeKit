@@ -12,6 +12,8 @@
 
 #import <CoreText/CoreText.h>
 
+@import UIKit;
+
 // options
 NSString * const BCKCodeDrawingBarScaleOption = @"BCKCodeDrawingBarScale";
 NSString * const BCKCodeDrawingPrintCaptionOption = @"BCKCodeDrawingPrintCaption";
