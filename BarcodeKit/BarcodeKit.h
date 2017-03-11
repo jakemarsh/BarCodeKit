@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char BarcodeKitVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <BarcodeKit/PublicHeader.h>
 
 
+#import "BarCodeKit.h"
