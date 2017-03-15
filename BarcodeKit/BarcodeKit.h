@@ -26,8 +26,13 @@ FOUNDATION_EXPORT const unsigned char BarcodeKitVersionString[];
 #import "BCKEAN8Code.h"
 #import "BCKEAN13Code.h"
 #import "BCKUPCECode.h"
+#import "BCKCode11Code.h"
 #import "BCKCode39Code.h"
-#import "BCKCode39Code
+#import "BCKCode39CodeModulo43.h"
+#import "BCKCode39FullASCIIModulo43.h"
+#import "BCKEAN2SupplementCode.h"
+#import "BCKEAN5SupplementCode.h"
+#import "BCKUPCACode.h"
 #import "BCKCode93Code.h"
 #import "BCKFacingIdentificationMarkCode.h"
 #import "BCKInterleaved2of5Code.h"
@@ -104,3 +109,5 @@ FOUNDATION_EXPORT const unsigned char BarcodeKitVersionString[];
 #else
 #import "NSImage+BarcodeKit.h"
 #endif
+
+#import "NSString+BCKCode128Helpers.h"
